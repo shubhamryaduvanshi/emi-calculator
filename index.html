@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+ 
+</head>
+
+<body>
+    <div class="container-box">
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <div class="input-details">
+            <!-- recieving loan amount from user -->
+            <label for="enterLoanAmount">Enter Loan Amount</label>
+            <input type="number" id="enterLoanAmount" class="inputfields" >
+            <!-- recieving the tenure months or the time limit loan to be paid -->
+            <label for="loanTenureMonths" >Tenure (in months)</label>
+            <input type="number" id="loanTenureMonths" class="inputfields">
+            <!-- recieving the loan percentage -->
+            <label for="interestPercent" >Interest (%)</label>
+            <input type="number" id="interestPercent" class="inputfields">
+            <!-- Calculate button -->
+            <button class="submit" id="emiCalculatebtn" onclick="calculateEmi()">Calculate</button>
+        </div>
+        <div id="showcalculatedemi"></div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
