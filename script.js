@@ -21,3 +21,5 @@ function calculateEmi(){
    `;
 
 }
+
+// js end here in cloned 
