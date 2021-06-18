@@ -21,5 +21,9 @@ function calculateEmi(){
    `;
 
 }
+<<<<<<< HEAD
 
 // js end here in cloned 
+=======
+//main projects comment
+>>>>>>> 1b16ecfc587feba65eacd1ef4a4e28eb88c23ffe
